@@ -11,6 +11,8 @@ You might have been tired with Magento or Shopify, Checkout this one to work wit
 - php artisan migrate
 - Setup symlink for storage: php artisan storage:link
 
+在npm install之后把public/vendor文件夹复制到node_modules中，方可运行npm run watch
+
 # Customization And Develop
 1: Setup your own theme folder
 - I have provide a default theme for you, but you might need something special. Please create your own theme root folder in resources/frontend/custom/{your_theme_name}.
